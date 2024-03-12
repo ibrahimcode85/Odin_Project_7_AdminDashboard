@@ -19,24 +19,29 @@ body{
 }
 
 .logo{
-    font-size: 2rem;
-    font-weight: bold;
+    padding-left: 15px;
+    align-self: center;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .img-logo{
-    width: 50px;
+    padding: 0 10px 0 10px;
+    width: 32px;
 }
 
-.img-wrapper{
-    justify-self: end;
-    align-self: center;
+.img-icon{
+    width: 16px;
+    padding-right: 10px;
 }
 
-span{
-    padding-left: 10px;
-    align-self: center;
+a.img-wrapper{
+    text-decoration: none;
+}
+
+.text-logo{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .content{
@@ -49,11 +54,15 @@ ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
 
+ul.nav1{
+    padding-left: 15px;
 }
 
 ul.nav2{
     margin-top: 50px;
+    padding-left: 15px;
 }
 
 li{
