@@ -106,15 +106,34 @@ input[type="search"]{
 }
 
 .img-profile{
-    width: 80px;
+    width: 60px; 
     padding: 0px 15px 0px 15px;
 }
 
 .img-icon-header{
-    width: 1.5rem;
+    width: 1.2rem;
 }
 
 .profile-name{
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.header-welcome{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+
+}
+
+
+.header-welcome > .img-profile{
+    width: 90px;
+    padding-left: 50px;
+}
+
+.welcome-text-wrapper > .profile-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
