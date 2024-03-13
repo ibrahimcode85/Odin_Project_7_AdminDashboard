@@ -88,7 +88,7 @@ li{
 }
 
 input[type="search"]{
-    background-color: rgb(202, 197, 197);
+    background-color:rgb(227, 224, 224);
     border: none;
     height: 1.8rem;
     width: 80%;
@@ -146,4 +146,48 @@ input[type="search"]{
     margin: 0 10px 0 10px;
     border-radius: 30px;
     border: none;
+}
+
+.content > .projects{
+    display: grid;
+    grid-template-rows: 1fr 15fr;
+}
+
+.project-card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 5px 15px 15px 15px;
+}
+
+.project-card{
+    background-color: white;
+    border: none;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    display: grid;
+}
+
+h2.project-title{
+    margin: 15px 0px 0px 15px;
+}
+
+.card-content-wrapper > h3{
+    margin: 15px 0px 0px 15px;
+}
+
+.card-content-wrapper > p{
+    margin: 5px 0px 0px 15px;
+}
+
+.card-action-icon{
+    justify-self: end;
+    align-self: center;
+    margin-right: 15px;
+}
+.card-action-icon > .img-icon{
+    width: 24px;
+    padding: 10px;
 }
