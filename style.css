@@ -159,7 +159,7 @@ input[type="search"]{
     gap: 15px;
     justify-items: stretch;
     align-items: stretch;
-    margin: 5px 15px 15px 15px;
+    margin: 5px 0px 15px 15px;
 }
 
 .project-card{
@@ -170,7 +170,7 @@ input[type="search"]{
     display: grid;
 }
 
-h2.project-title{
+h2.content-title{
     margin: 15px 0px 0px 15px;
 }
 
@@ -180,14 +180,65 @@ h2.project-title{
 
 .card-content-wrapper > p{
     margin: 5px 0px 0px 15px;
+    color: rgb(100, 98, 98);
 }
 
 .card-action-icon{
     justify-self: end;
-    align-self: center;
+    align-self: end;
     margin-right: 15px;
 }
 .card-action-icon > .img-icon{
-    width: 24px;
+    width: 20px;
     padding: 10px;
+    margin-bottom: 5px;
 }
+
+
+.content > .announcements{
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+
+.announcement-wrapper{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 15px 15px 15px;
+    display: grid;
+}
+
+.announcement-wrapper > .announce-card{
+    margin: 0px 10px;
+}
+
+.announcement-wrapper > .announce-card:not(:first-child){
+    border-top: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+
+.announce-card > .announce-content{
+    margin: 0px 15px 15px 0px;
+    color: rgb(100, 98, 98);
+    font-size: 0.9rem;
+
+}
+
+.announce-card > .title{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content > .trending{
+    display: grid;
+    grid-template-rows: 1fr 7.5fr;
+}
+
+.trend-wrapper{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 15px 15px 15px;
+}
+
