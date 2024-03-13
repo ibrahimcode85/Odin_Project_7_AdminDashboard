@@ -1,7 +1,8 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 18% 82%;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -52,6 +53,7 @@ a.img-wrapper{
     background-color: rgb(227, 224, 224);
     display: grid;
     grid-template-columns: 2.5fr 1fr;
+    box-shadow: 0px -2px 5px grey;
 }
 
 ul{
@@ -168,6 +170,7 @@ input[type="search"]{
     border-left: 10px solid orange;
     border-radius: 10px;
     display: grid;
+    box-shadow: 5px 5px 5px grey;
 }
 
 h2.content-title{
@@ -206,6 +209,7 @@ h2.content-title{
     border-radius: 10px;
     margin: 5px 15px 15px 15px;
     display: grid;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .announcement-wrapper > .announce-card{
@@ -241,6 +245,7 @@ h2.content-title{
     border-radius: 10px;
     margin: 5px 15px 15px 15px;
     display: grid;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .trend-card{
@@ -255,4 +260,5 @@ h2.content-title{
 
 .trend-card .trend-content{
     color: rgb(100, 98, 98);
+    padding-top: 5px;
 }
