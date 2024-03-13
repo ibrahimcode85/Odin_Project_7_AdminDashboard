@@ -10,7 +10,8 @@ body{
     grid-column: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    align-items: center;
 }
 
 .side-bar{
@@ -129,7 +130,7 @@ input[type="search"]{
 
 .header-welcome > .img-profile{
     width: 90px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .welcome-text-wrapper > .profile-name{
@@ -137,3 +138,12 @@ input[type="search"]{
     font-weight: bold;
 }
 
+.header-action  button{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    font-size: 1rem;
+    padding: 10px 25px 10px 25px;
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+    border: none;
+}
