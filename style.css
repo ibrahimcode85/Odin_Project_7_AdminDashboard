@@ -240,5 +240,19 @@ h2.content-title{
     border: none;
     border-radius: 10px;
     margin: 5px 15px 15px 15px;
+    display: grid;
 }
 
+.trend-card{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.trend-card .user-alias{
+    font-weight: bold;
+}
+
+.trend-card .trend-content{
+    color: rgb(100, 98, 98);
+}
